@@ -1,4 +1,4 @@
-# Ana Beltran — Virtual Assistant (Next.js)
+# Ivy Villafrance — Virtual Assistant (Next.js)
 
 A single-page site built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
