@@ -1,4 +1,4 @@
-# Ana Beltran — Virtual Assistant (Next.js)
+# Ivy Villafranca — Virtual Assistant (Next.js)
 
 A single-page site built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
@@ -22,6 +22,7 @@ Then open http://localhost:3000.
 - `components/About.tsx` — bio + illustrated monogram
 - `components/Process.tsx` — 4-step onboarding timeline
 - `components/Testimonials.tsx` — client quotes
+- `components/Projects.tsx` — project portfolio section on the homepage
 - `components/Contact.tsx` — contact form
 - `app/api/contact/route.ts` — validates form submissions and sends owner/client emails with Resend
 - `components/Footer.tsx`
