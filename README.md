@@ -22,11 +22,13 @@ Then open http://localhost:3000.
 - `components/About.tsx` — bio + illustrated monogram
 - `components/Process.tsx` — 4-step onboarding timeline
 - `components/Testimonials.tsx` — client quotes
-- `components/Contact.tsx` — contact form (front-end only; wire `onSubmit` to your email/CRM)
+- `components/Contact.tsx` — contact form
+- `app/api/contact/route.ts` — validates form submissions and sends owner/client emails with Resend
 - `components/Footer.tsx`
 
 ## To customize
 
 - Swap the placeholder name, copy, and testimonials for the real ones.
 - Brand color lives in `app/globals.css` as `--pink` (currently `#faaeff`) — change it there and it propagates everywhere via Tailwind's `pink` color.
-- Wire `components/Contact.tsx`'s form submit handler to an API route, email service, or CRM before deploying.
+- Copy `.env.example` to `.env.local`, then set `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, and `CONTACT_TO_EMAIL`.
+- Verify the sender domain in Resend before setting `RESEND_FROM_EMAIL`. Keep the API key private and configure the same environment variables in your deployment provider.

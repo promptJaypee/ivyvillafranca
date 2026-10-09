@@ -17,7 +17,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      aria-labelledby="testimonials-heading"
+      aria-labelledby="testimonials-heading"  
       className="bg-lavender px-5 py-16 md:px-8 md:py-24"
     >
       <div className="mx-auto max-w-6xl">
